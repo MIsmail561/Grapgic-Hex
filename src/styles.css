@@ -1,1 +1,100 @@
-/* You can add global styles to this file, and also import other style files */
+
+.cont
+{
+    width: 80%;
+    margin: auto;
+    background-color: #FAFAFA;
+    height: auto;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.logo
+{
+    height: 50px;
+    width: 50px;
+}
+
+.nav-col
+{
+    color: #153F78;
+    font-weight: 500;
+}
+
+.nav-bg
+{
+    background-color: white;
+}
+
+.bot-rad
+{
+    border-radius: 0px 0px 30px 30px;
+    box-shadow: 1px 2px 5px gray}
+
+.faList
+{
+    font-size:30px !important;
+}
+.fa-ico
+{
+    font-size: 22px;
+    color: #142F78;
+    font-weight: 500;
+    cursor: pointer;
+}
+.userImg
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.dropdown-menu a:hover
+{
+    background-color: #153F78;
+    color: white;
+}
+
+/* Form Style */
+
+.formStyle
+{
+    border: 0 !important;
+    border-radius: 0% !important;
+    border-bottom: 1px solid grey !important;
+}
+
+.card h5
+{
+    font-size: 26px;
+    font-weight: 400;
+    color: rgba(48, 47, 47, 0.7);
+}
+.card h6
+{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(48, 47, 47, 0.7);
+}
+
+.card h6 .span
+{
+    color: #007BFF;
+    font-weight: 700;
+}
+
+/* Account selection */
+.card
+{
+    box-shadow: 1px 2px 5px gray !important;
+}
+
+.bg-grey
+{
+    background-color: #fafafa  !important;
+}
+
+.jobImage
+{
+    width: 80% !important;
+}
+

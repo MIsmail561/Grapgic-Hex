@@ -1,0 +1,47 @@
+<div  class="row my-5 mx-5">
+
+    <div class="col-md-5 card">
+
+      <h5 class="pt-4">Sign Up For New Account</h5>
+      <h6>Alrady have an accout ? <span class="span">Login</span></h6>
+
+        <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+            <div class="form-group">
+              <input type="text" class="form-control formStyle" id="name" formControlName="name" placeholder="Name">
+            </div>
+      
+            <div class="form-group">
+              <input type="email" class="form-control formStyle" id="email" formControlName="email" placeholder="Email">
+            </div>
+
+            <div class="form-group">
+
+                <select class="form-control formStyle" id="country" formControlName="country">
+
+                    <option [selected]="true" disabled>Country</option>
+                    <option>Egypt</option>
+                    <option>United States</option>
+                    <option>United Kingdom</option>
+
+                </select>
+            </div>
+
+            <div class="form-group">
+                <input type="password" class="form-control formStyle" id="pass" formControlName="pass" placeholder="Password">
+            </div>
+
+            <div class="form-group">
+                <input type="password" class="form-control formStyle" id="confPass" formControlName="confPass" placeholder="Confirm Password">
+            </div>
+
+      
+            <button class="btn btn-primary mt-4 px-5 py-3" [disabled]="disabledBtn" type="submit"  style="font-size: 18px;">Sign Up</button>
+
+
+          </form>
+    </div>
+
+    <div class="col-md-7">
+      <img src="../assets/Captur2e.PNG" class="img-fluid">
+    </div>
+</div>
